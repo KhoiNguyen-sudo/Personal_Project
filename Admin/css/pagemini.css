@@ -1,0 +1,74 @@
+#OOO {
+    animation-duration: 0.5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: -500px;
+    }
+  
+    to {
+      float: right;
+    }
+  }
+  
+  #OOO {
+      /* background: rgb(44, 117, 182, 0.6); */
+      height: 650px;
+      width: 250px;
+      position: fixed;
+      padding: 30px;
+      top: 235px;
+      right: 0;
+      display: none;
+      transition: 0.5s;
+      border-radius: 0px 0px 0px 10px;
+      opacity: 0.9;
+  }
+  #submit {
+    width: 200px;
+    margin-left: 35px;
+}
+input{
+    margin-bottom: 10px;
+    width: 250px ;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+#Btn-1 {
+ margin-top: 10px;
+}
+#btn-1 {
+    font-weight: 900;
+    color: yellow;
+}
+#delete {
+    width: 200px;
+    margin-left: 35px;
+}
+#TX {
+  margin-left: 6px;
+}
+#TX:hover{
+  background-color: rgb(102, 19, 19);
+  color: white;
+}.error {
+  background: #F2DEDE;
+  color: #A94442;
+  padding: 10px;
+  width: 95%;
+  border-radius: 100px;
+  margin: 20px auto;
+} 
+.success {
+  background: #D4EDDA;
+  color: #40754C;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
