@@ -1,7 +1,7 @@
 <?php 
 session_start(); 
-    require("ketnoi.php");
-    $sql = "SELECT * FROM `admin` ";
+    require("connect.php");
+    $sql = "SELECT * FROM `thoikhoabieu` ";
     $query = mysqli_query($conn, $sql); 
 ?>
 <!DOCTYPE html>
