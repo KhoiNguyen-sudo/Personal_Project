@@ -48,11 +48,10 @@
                         </div>
                         <div>
                         <button type="submit" >Đăng Nhập</button>     
-                        <button ><a href="../index.php" class="ca">Trang User</a></button>    
                         <br>
                         </div> 
-                        
                     </form>
+                    <button id="export.php" ><a href="../index.php" ><h4>Trang User</h4></a></button>    
                 </div>
             </div>
     </div>
