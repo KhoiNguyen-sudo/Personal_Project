@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 24, 2022 lúc 05:04 PM
+-- Thời gian đã tạo: Th10 25, 2022 lúc 12:56 PM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -109,7 +109,8 @@ INSERT INTO `users` (`id`, `password`, `name`, `ngaysinh`, `ngaycapcccd`, `gioit
 (16, '202cb962ac59075b964b07152d234b70', 'user', '', '', '', '', 'user', '', 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'default-pp.png	'),
 (19, '202cb962ac59075b964b07152d234b70', 'Ho Dang Khoi Nguyen', '5/8/2001', '24/11/2022', 'Nam', 'TP.HCM', '197CT09890', '197CT09890', 2147483647, 934657981, 'TP.Ho Chi Minh', 'Kinh', 'Quan 3', 'Phat', 'Ha noi', '123456789', '123', 'Cu Nhan', 'Giang Vien', 'Co huu', 'Du Lieu', '123456', 'ShinHanBank', 'nguyen.197ct09890@vanlanguni.vn', 'nguyen.png'),
 (21, '202cb962ac59075b964b07152d234b70', 'NguyenThe Hien', '1/1/2001', '26/12/2022', 'Nam', 'TP.Ha noi', '197CT00001', '197CT00001', 123456789, 113, 'TP.Ha Noi', 'Kinh', 'Quan 7', 'Thien Chua', 'Ha Noi', '987654321', '321', 'Cu Nhan', 'Giang vien', 'Thinh Giang', 'Phan Mem', '654321', 'Vietcombank', 'hien.197ct00001@vanlanguni.vn', 'hien.png'),
-(22, '202cb962ac59075b964b07152d234b70', 'Tran Duc Toan', '2/2/2001', '29/12/2022', 'Nam', 'TP.Ha noi', '197CT00002', '197CT00002', 987654321, 114, 'TP.Ha Noi', 'Kinh', 'Quan 1', 'Ki to ', 'Ha Noi', '177345678', '456', 'Cu Nhan', 'Giang vien', 'Thinh Giang', 'Mang', '6789', 'Techcombank', 'toan.197ct00002@vanlanguni.vn', 'toan.png');
+(22, '202cb962ac59075b964b07152d234b70', 'Tran Duc Toan', '2/2/2001', '29/12/2022', 'Nam', 'TP.Ha noi', '197CT00002', '197CT00002', 987654321, 114, 'TP.Ha Noi', 'Kinh', 'Quan 1', 'Ki to ', 'Ha Noi', '177345678', '456', 'Cu Nhan', 'Giang vien', 'Thinh Giang', 'Mang', '6789', 'Techcombank', 'toan.197ct00002@vanlanguni.vn', 'toan.png'),
+(26, '202cb962ac59075b964b07152d234b70', '123', '', '', '', '', '123', '123', 0, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'default-pp.png	');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -153,7 +154,7 @@ ALTER TABLE `thoikhoabieu`
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

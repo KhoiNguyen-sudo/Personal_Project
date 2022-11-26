@@ -7,7 +7,8 @@
     <title>Đăng nhập 👨‍💻</title>
     <link rel="stylesheet" href="User\css\login.css">
     <link rel="shortcut icon" href="User\CSS\img\icon.png"> 
-    <style>
+    <style> 
+
     a {
         color: white;
         text-decoration: none;
@@ -22,13 +23,20 @@
 
     #color:hover {
         color: purple;
-    }
+    } 
+    
 </style>
 </head>
-<body> 
-    <div class="header">
-            <div class="logo"><a href="menu.html"><img src="click menu.png" alt=""></a></div>
-            <div class="login">
+<body>  
+
+<div class="HCF">
+        <div class="header">
+            <div style="position: relative;" class="img">
+                <img src="User\css\img\Bia.png" alt="" width="100%">
+        <center> 
+
+            <div class="login"> 
+                
                 <div class="form">
                     <h1>Đăng Nhập</h1> 
                     <!-- Bước liên kết giữa PHP và HTM; phương thức liên kết là POST -->
@@ -49,17 +57,17 @@
                         <div>
                         <button type="submit" >Đăng Nhập</button>    
                         <br>
-                        <button  ><a href="signup.php" class="ca">Đăng ký</a></button>    
 
                         </div> 
                         <div>
-                        <button ><a href="Admin/indexadmin.php" class="ca">Admin</a></button>    
-
+                    
+                        
                         </div>
                     </form>
                 </div>
             </div>
-    </div>
+    </div> 
+    </center> 
     <script src="script\index.js"></script>
 </body>
 </html> 

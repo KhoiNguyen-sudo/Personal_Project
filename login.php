@@ -52,7 +52,6 @@ if (isset($_POST["uname"]) && isset($_POST["password"])) {
                 $_SESSION['tennganhang']= $row["tennganhang"];  
                 $_SESSION['email']= $row["email"];  
                 $_SESSION['pp']= $row["pp"];  
-
                 header("Location: User/index.php");
                 exit();
             }  else {

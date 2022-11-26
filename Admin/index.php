@@ -12,7 +12,8 @@
     <div class="HCF">
         <div class="header">
             <div style="position: relative;" class="img">
-                <img src="css\img\Bia.png" alt="" width="100%">
+                <img src="css\img\Bia.png" alt="" width="100%"> 
+                
             </div>
         </div>
         <div style="position: relative; height: auto;" class="contain">

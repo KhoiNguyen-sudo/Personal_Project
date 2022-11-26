@@ -56,8 +56,9 @@ $query = mysqli_query($conn, $themsql);
                     <button type="submit"><h3>Đổi mật khẩu</h3></button>
                 </form>
                 <form action="logout.php">
-                    <button type="submit"><h3>Thoát</h3></button>
-                </form>
+                    <button type="submit"><h3>Thoát</h3></button> 
+                </form> 
+                <button id="export.php" > <a href="signup.php" ><h3>Thêm thành viên</h3></a> </button> 
             </div>
             <div class="Aside">
                 <div class="center1">
@@ -91,7 +92,7 @@ $query = mysqli_query($conn, $themsql);
                     </div>
                 </div>
                 <div class="center2">
-                    <table>
+                    <table> 
                         <tr>
                             <th style="height: 50px;">Thứ</th>
                             <th>Tên giảng viên</th>
